@@ -1,0 +1,234 @@
+Day-1
+5 june 2025
+
+Welcome to C++, so first we start from C !
+so our as usual question WHAT,WHY and HOW?
+
+What is C?
+
+C is a:
+General-purpose
+Procedural
+High-level (with low-level features)
+Structured programming language
+
+Developed by: Dennis Ritchie in 1972 at Bell Labs
+Used for: System software, embedded systems, operating systems (like UNIX), compilers, etc.
+
+Examples of Use:
+Operating Systems (UNIX/Linux kernel)
+Database Systems (e.g., MySQL)
+Embedded systems (TVs, routers)
+Compilers and interpreters
+
+ Why Learn C?
+
+ Foundation of Modern Languages
+C is called the "mother of all programming languages." Languages like C++, Java, Python, and even JavaScript are influenced by C.
+
+ Understanding the Core
+You learn how memory works, how programs run, and how computers think.
+
+ Fast & Efficient
+C runs very close to the hardware and gives better performance.
+
+ Portable Code
+C programs can run on various machines with minor changes.
+
+ Real-world Use Cases
+OS kernels (Linux/Unix), embedded software, firmware, databases (like MySQL), game engines.
+
+Learning C helps you:
+Understand memory, pointers, compilation process
+Build a strong base for learning other programming languages
+
+How is C (How it works / how we use it)?
+Structure of a Simple C Program:
+
+#include <stdio.h>       // Header file inclusion
+
+int main() {             // Main function - starting point
+    printf("Hello World");  // Output statement
+    return 0;            // Exit code
+}
+
+How
+Learn syntax and concepts, write code in .c files, compile using GCC, run the program.
+
+How to Write and Run C Code:
+Write code in a .c file (e.g., program.c)
+Compile using a C compiler (e.g., GCC):gcc program.c -o program
+Run the executable:./program
+
+Data Types and Basic Concepts in C
+
+🔹 Tokens in C
+
+Tokens are the smallest individual units in a C program.
+Types of tokens:
+
+Keywords
+
+Identifiers
+
+Constants/Literals
+
+Operators
+
+Punctuation/Special symbols
+
+🔹 Keywords
+
+Reserved words predefined in C.
+
+Cannot be used as variable names.
+
+Examples: int, float, return, if, while, break, etc.
+
+Total: 32 keywords in C
+
+🔹 Identifiers
+
+Names used for variables, functions, arrays, etc.
+
+Rules:
+
+Must begin with a letter (A-Z or a-z) or underscore (_)
+
+Followed by letters, digits or underscores
+
+Cannot be a keyword
+
+Case-sensitive
+
+Examples: age, _count, totalMarks
+
+🔹 Literals / Constants
+
+Fixed values that do not change during program execution.
+Types:
+
+Integer Literals: 100, -5
+
+Floating-point Literals: 3.14, -0.99
+
+Character Literals: 'A', '9'
+
+String Literals: "Hello", "1234"
+
+🔹 Data Types in C
+
+🎯 Role of Data Types
+
+Specifies the type of data a variable can hold.
+
+Determines the size (memory), range, and operations allowed.
+
+Ensures correctness and efficiency of operations.
+
+📌 Basic (Primary) Data Types
+
+Data Type
+
+Size (in bytes)
+
+Description
+
+int
+
+2 or 4
+
+Integer numbers
+
+float
+
+4
+
+Decimal numbers
+
+char
+
+1
+
+Single characters
+
+double
+
+8
+
+Large decimal numbers
+
+🧩 Derived Data Types
+
+Formed using basic data types.
+
+Examples:
+
+Array (e.g., int a[10];)
+
+Pointer (e.g., int *p;)
+
+Function (e.g., int sum(int, int);)
+
+🏗️ User-defined Data Types
+
+Created by the user for specific needs.
+
+Examples:
+
+Structure (struct)
+
+Union (union)
+
+Enumeration (enum)
+
+Typedef (typedef)
+
+⚙️ Type Modifiers
+
+Modify the meaning of the base data types.
+
+Examples:
+
+short, long, signed, unsigned
+
+Example usage:
+
+unsigned int age;
+long double pi;
+
+📍 Type Specifiers
+
+Used to define data type in declarations.
+
+Common specifiers:
+
+%d – integer
+
+%f – float
+
+%c – character
+
+%lf – double
+
+%s – string (char array)
+
+📌 Variables in C
+
+Named location in memory to store data.
+
+Declaration Syntax:
+
+int age;
+float marks;
+char grade;
+
+Rules for naming variables:
+
+Must start with a letter or underscore
+
+Can contain letters, digits, underscores
+
+Cannot use keywords
+
+Case-sensitive
